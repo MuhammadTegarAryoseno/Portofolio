@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Website">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <title>Muhammad Tegar Aryoseno - Portfolio</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Muhammad Tegar Aryoseno</a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Hi, I'm Muhammad Tegar Aryoseno</h1>
+            <p>Fresh Graduate | Creative Thinker | Mechanics</p>
+            <a href="#projects" class="btn">View Projects</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container about-content">
+            <img src="https://i.pinimg.com/736x/42/74/ae/4274ae136f0398fa555a3f89b4ca2ad0.jpg" alt="Your Name" class="profile-picture">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    I am a graduate of Automotive Vehicle Engineering specializing in the maintenance and repair of passenger vehicles. Currently, I am pursuing a degree in Computer Science at Universitas Indraprasta (PGRI). I have skills in developing simple programs using Pascal and JavaScript programming languages. I am also proficient in using Visual Studio Code as my primary software development tool.
+                </p>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <ul>
+                        <li>Automotive Diagnosis and Troubleshooting</li>
+                        <li>Engine Repair and Maintenance</li>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Git, GitHub</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-item">
+                    <img src="https://i.pinimg.com/736x/71/ef/b8/71efb8935c36038e8cca10a8c7290689.jpg" alt="Project 1">
+                    <h3>Kucing Petapa</h3>
+                    <p>Kucing Petapa adalah istilah yang menggambarkan kucing yang memiliki sifat pendiam, tenang, dan suka menyendiri. Biasanya, kucing ini lebih memilih tempat-tempat sepi seperti sudut ruangan, atap rumah, atau area tersembunyi di taman untuk beristirahat. Layaknya seorang petapa, kucing ini jarang berinteraksi secara aktif dengan manusia atau hewan lain, lebih menikmati ketenangan dan kesunyian. Meskipun tampak penyendiri, kucing petapa sering memancarkan aura bijaksana dan misterius yang menarik perhatian..</p>
+                </div>
+                <div class="project-item">
+                    <img src="https://i.pinimg.com/736x/f4/e0/43/f4e0435c9760813f1f9c9fa9f9982994.jpg" alt="Project 2">
+                    <h3>Kucing Pegal</h3>
+                    <p>Kucing Pegal adalah istilah yang menggemaskan untuk menggambarkan kucing yang tampak malas, lelah, atau sering meregangkan tubuhnya seperti sedang pegal. Kucing ini biasanya sering terlihat berbaring di berbagai posisi lucu, menguap lebar, dan meregangkan kaki atau badannya dengan gaya unik. Gerakan tersebut memberi kesan seakan-akan kucing ini sedang berusaha melepaskan rasa penat setelah beraktivitas, meskipun sebagian besar waktu mereka dihabiskan untuk tidur atau bersantai. Tingkah laku ini sering membuat pemiliknya gemas dan tertawa melihat "keluhan" kucing yang sebenarnya selalu nyaman.</p>
+                </div>
+                <div class="project-item">
+                    <img src="https://i.pinimg.com/736x/97/14/78/9714782aa6e360e5e6ffc15010bf02eb.jpg" alt="Project 3">
+                    <h3>Kucing Sigma Mewing</h3>
+                    <p>Kucing Sigma Mewing adalah istilah yang menggambarkan kucing dengan perilaku "mewing" atau mengeong secara khas namun tetap menunjukkan sikap tenang, mandiri, dan penuh percaya diri—mirip dengan karakter "sigma" dalam dunia manusia. Kucing ini jarang mengeong tanpa alasan, namun ketika melakukannya, suaranya terdengar lembut, misterius, dan seakan penuh makna.</p>
+                </div>
+                <div class="project-item">
+                    <img src="https://i.pinimg.com/736x/19/28/81/1928813b98240fba2591667dd8d85558.jpg" alt="Project 3">
+                    <h3>Kucing Curiga</h3>
+                    <p>Kucing Curiga adalah istilah yang menggambarkan kucing dengan perilaku penuh kehati-hatian dan rasa waspada yang tinggi terhadap lingkungan sekitarnya. Kucing ini sering terlihat dengan telinga yang bergerak-gerak, mata tajam yang terus mengawasi, dan tubuh yang agak tegang, seolah-olah sedang mencurigai sesuatu atau seseorang.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>CONTACT</h2>
+            <p>Feel free to Contact me by submitting the form below and I will get back to you as soon as possible</p>
+            <div class="contact-form">
+                <form action="https://formsubmit.co/garrtegar07@gmail.com" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Enter Your Message" required></textarea>
+                    </div>
+                    <button type="submit">SUBMIT</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Muhammad Tegar Aryoseno. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
